@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "GpuA4000",
+        "description": "gpu with an NVIDIA A4000"
+    },
+
+    "cpu": {
+        "slots": 8,
+        "overprovision": 2,
+        "allowSMT": false,
+        "archs": ["X86_64"],
+        "flags": ["sse2"]
+    },
+    
+    "ram": {
+        "ramsize": 8192,
+        "reqECC": false
+    },
+    
+    "pci": [
+        {
+            "vendor": "10de",
+            "model": "24b0",
+            "quantity": 1
+        },
+        {
+            "vendor": "10de",
+            "model": "228b",
+            "quantity": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "MediumPlus",
+        "description": "Medium Machine but with a little bit more of memory"
+    },
+
+    "cpu": {
+        "slots": 4,
+        "overprovision": 2,
+        "allowSMT": false,
+        "archs": ["X86_64"],
+        "flags": ["sse2"]
+    },
+    
+    "ram": {
+        "ramsize": 6144,
+        "reqECC": false
+    },
+    
+    "pci": []
+}

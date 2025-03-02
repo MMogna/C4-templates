@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "MediumPlus",
+        "description": "Large Machine"
+    },
+
+    "cpu": {
+        "slots": 8,
+        "overprovision": 8,
+        "allowSMT": false,
+        "archs": ["X86_64"],
+        "flags": ["sse2"]
+    },
+    
+    "ram": {
+        "ramsize": 8192,
+        "reqECC": false
+    },
+    
+    "pci": []
+}

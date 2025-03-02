@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "Medium",
+        "description": "A machine with decent CPU power and over average graphical computing power"
+    },
+
+    "cpu": {
+        "slots": 4,
+        "overprovision": 2,
+        "allowSMT": false,
+        "archs": ["X86_64"],
+        "flags": ["sse2"]
+    },
+    
+    "ram": {
+        "ramsize": 4096,
+        "reqECC": false
+    },
+    
+    "pci": []
+}

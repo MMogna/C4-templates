@@ -1,0 +1,42 @@
+{
+    "info": {
+        "name": "GpuMax",
+        "description": "gpu with an NVIDIA A6000 and an NVIDIA A4000"
+    },
+
+    "cpu": {
+        "slots": 16,
+        "overprovision": 4,
+        "allowSMT": false,
+        "archs": ["X86_64"],
+        "flags": ["sse2"]
+    },
+    
+    "ram": {
+        "ramsize": 16384,
+        "reqECC": false
+    },
+    
+    "pci": [
+        {
+            "vendor": "10de",
+            "model": "2230",
+            "quantity": 1
+        },
+        {
+            "vendor": "10de",
+            "model": "1aef",
+            "quantity": 1
+        },
+        {
+            "vendor": "10de",
+            "model": "24b0",
+            "quantity": 1
+        },
+        {
+            "vendor": "10de",
+            "model": "228b",
+            "quantity": 1
+        }
+    ]
+}
