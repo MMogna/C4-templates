@@ -1,6 +1,6 @@
 {
     "info": {
-        "name": "GpuMax",
+        "name": "C4-GpuMax",
         "description": "gpu with an NVIDIA A6000 and an NVIDIA A4000"
     },
 

@@ -1,6 +1,6 @@
 {
     "info": {
-        "name": "GpuA4000",
+        "name": "C4-GpuA4000",
         "description": "gpu with an NVIDIA A4000"
     },
 
