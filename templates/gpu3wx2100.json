@@ -1,0 +1,32 @@
+{
+    "info": {
+        "name": "C4-Gpu3RadeonWX2100",
+        "description": "gpu with 3 GPUs from AMD RADEON PRO WX 2100"
+    },
+
+    "cpu": {
+        "slots": 8,
+        "overprovision": 2,
+        "allowSMT": false,
+        "archs": ["X86_64"],
+        "flags": ["sse2"]
+    },
+    
+    "ram": {
+        "ramsize": 8192,
+        "reqECC": false
+    },
+    
+    "pci": [
+        {
+            "vendor": "1002",
+            "model": "6995",
+            "quantity": 3
+        },
+        {
+            "vendor": "1002",
+            "model": "aae0",
+            "quantity": 3
+        }
+    ]
+}
